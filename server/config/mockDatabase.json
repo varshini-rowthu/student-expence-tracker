@@ -1,0 +1,473 @@
+{
+  "users": [
+    {
+      "id": "user-demo-student",
+      "_id": "user-demo-student",
+      "name": "Alex Johnson",
+      "email": "alex@student.edu",
+      "password": "$2a$10$6ZksUNt05eOJS9VtVXoy7O3ry413FdQpmZVCtNNnA8OO4ZHTDZepu",
+      "currency": "$",
+      "monthlyAllowance": 800,
+      "defaultMonthlyBudget": 600,
+      "alertThresholdWarning": 80,
+      "alertThresholdCritical": 100,
+      "spendingCategories": [
+        "Food & Dining",
+        "Books & Study Material",
+        "Transportation",
+        "Entertainment & Leisure"
+      ],
+      "created_at": "2026-09-30T09:10:22.557Z"
+    },
+    {
+      "id": "user-1790829650726",
+      "_id": "user-1790829650726",
+      "name": "darling",
+      "email": "varshinirowthu195@gmail.com",
+      "password": "$2a$10$SuMj/tOtQw27SGjWsleJROVDesa1lmKQaSPyBIyBUpBhSAUXT3JCS",
+      "currency": "₹",
+      "monthlyAllowance": 500,
+      "defaultMonthlyBudget": 700,
+      "alertThresholdWarning": 80,
+      "alertThresholdCritical": 100,
+      "spendingCategories": [],
+      "created_at": "2026-10-01T04:40:50.726Z"
+    },
+    {
+      "id": "user-1790829790232",
+      "_id": "user-1790829790232",
+      "name": "varshu",
+      "email": "althideeraj3@gmail.com",
+      "password": "$2a$10$W/Lj5f6S5rRJ7uN3fBPvJ.0ZEwYIiSca6hozAx4Bz.KnfjMcUZBtG",
+      "currency": "₹",
+      "monthlyAllowance": 700,
+      "defaultMonthlyBudget": 100,
+      "alertThresholdWarning": 80,
+      "alertThresholdCritical": 100,
+      "spendingCategories": [],
+      "created_at": "2026-10-01T04:43:10.232Z"
+    },
+    {
+      "id": "user-1790830803049",
+      "_id": "user-1790830803049",
+      "name": "sailu",
+      "email": "sailu@gmail.com",
+      "password": "$2a$10$n03WNT36irccwxNzAX4Dk.8PyDRC5G4e7AiJ5HykqA/4coU9kURtS",
+      "currency": "₹",
+      "monthlyAllowance": 500,
+      "defaultMonthlyBudget": 700,
+      "alertThresholdWarning": 80,
+      "alertThresholdCritical": 100,
+      "spendingCategories": [],
+      "created_at": "2026-10-01T05:00:03.049Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Food & Dining",
+      "color": "#f59e0b",
+      "icon": "Utensils",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-2",
+      "name": "Books & Study Material",
+      "color": "#3b82f6",
+      "icon": "BookOpen",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-3",
+      "name": "Housing & Rent",
+      "color": "#8b5cf6",
+      "icon": "Home",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-4",
+      "name": "Transportation",
+      "color": "#10b981",
+      "icon": "Bus",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-5",
+      "name": "Entertainment & Leisure",
+      "color": "#ec4899",
+      "icon": "Film",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-6",
+      "name": "Utilities & Internet",
+      "color": "#06b6d4",
+      "icon": "Wifi",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-7",
+      "name": "Healthcare & Medicine",
+      "color": "#ef4444",
+      "icon": "HeartPulse",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-8",
+      "name": "Personal Care & Groceries",
+      "color": "#14b8a6",
+      "icon": "ShoppingBag",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-9",
+      "name": "College Fees & Tech",
+      "color": "#6366f1",
+      "icon": "Laptop",
+      "isDefault": true,
+      "user_id": null
+    },
+    {
+      "id": "cat-10",
+      "name": "Part-Time Income & Allowance",
+      "color": "#22c55e",
+      "icon": "Wallet",
+      "isDefault": true,
+      "user_id": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-1790833199678-746",
+      "_id": "txn-1790833199678-746",
+      "user_id": "user-demo-student",
+      "amount": 19.99,
+      "type": "expense",
+      "category_id": null,
+      "category_name": "Food & Dining",
+      "date": "2026-10-01T05:39:59.678Z",
+      "payment_method": "UPI",
+      "note": "Midday canteen meal",
+      "created_at": "2026-10-01T05:39:59.678Z"
+    },
+    {
+      "id": "txn-1790832816309-998",
+      "_id": "txn-1790832816309-998",
+      "user_id": "user-1790829650726",
+      "amount": 5000,
+      "type": "expense",
+      "category_id": "cat-9",
+      "category_name": "College Fees & Tech",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "Cash",
+      "note": "",
+      "created_at": "2026-10-01T05:33:36.309Z"
+    },
+    {
+      "id": "txn-1790831770348-626",
+      "_id": "txn-1790831770348-626",
+      "user_id": "user-1790829650726",
+      "amount": 3000,
+      "type": "expense",
+      "category_id": "cat-8",
+      "category_name": "Personal Care & Groceries",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "UPI",
+      "note": "",
+      "created_at": "2026-10-01T05:16:10.348Z"
+    },
+    {
+      "id": "txn-1790831748482-508",
+      "_id": "txn-1790831748482-508",
+      "user_id": "user-1790829650726",
+      "amount": 1000,
+      "type": "income",
+      "category_id": "cat-10",
+      "category_name": "Part-Time Income & Allowance",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "UPI",
+      "note": "",
+      "created_at": "2026-10-01T05:15:48.482Z"
+    },
+    {
+      "id": "txn-1790831733886-879",
+      "_id": "txn-1790831733886-879",
+      "user_id": "user-1790829650726",
+      "amount": 700,
+      "type": "expense",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "UPI",
+      "note": "",
+      "created_at": "2026-10-01T05:15:33.886Z"
+    },
+    {
+      "id": "txn-1790831035709-372",
+      "_id": "txn-1790831035709-372",
+      "user_id": "user-1790830803049",
+      "amount": 1000,
+      "type": "income",
+      "category_id": "cat-10",
+      "category_name": "Part-Time Income & Allowance",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "Card",
+      "note": "",
+      "created_at": "2026-10-01T05:03:55.709Z"
+    },
+    {
+      "id": "txn-1790831010686-185",
+      "_id": "txn-1790831010686-185",
+      "user_id": "user-1790830803049",
+      "amount": 700,
+      "type": "expense",
+      "category_id": "cat-7",
+      "category_name": "Healthcare & Medicine",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "UPI",
+      "note": "",
+      "created_at": "2026-10-01T05:03:30.686Z"
+    },
+    {
+      "id": "txn-1790830827210-961",
+      "_id": "txn-1790830827210-961",
+      "user_id": "user-1790830803049",
+      "amount": 100,
+      "type": "expense",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "date": "2026-10-01T00:00:00.000Z",
+      "payment_method": "Cash",
+      "note": "",
+      "created_at": "2026-10-01T05:00:27.210Z"
+    },
+    {
+      "id": "txn-1790828693648-189",
+      "_id": "txn-1790828693648-189",
+      "user_id": "user-demo-student",
+      "amount": 19.99,
+      "type": "expense",
+      "category_id": null,
+      "category_name": "Food & Dining",
+      "date": "2026-10-01T04:24:53.648Z",
+      "payment_method": "UPI",
+      "note": "Midday canteen meal",
+      "created_at": "2026-10-01T04:24:53.648Z"
+    },
+    {
+      "id": "txn-1790761501255-254",
+      "_id": "txn-1790761501255-254",
+      "user_id": "user-demo-student",
+      "amount": 19.99,
+      "type": "expense",
+      "category_id": null,
+      "category_name": "Food & Dining",
+      "date": "2026-09-30T09:45:01.255Z",
+      "payment_method": "UPI",
+      "note": "Midday canteen meal",
+      "created_at": "2026-09-30T09:45:01.255Z"
+    },
+    {
+      "id": "txn-1",
+      "user_id": "user-demo-student",
+      "category_id": "cat-10",
+      "category_name": "Part-Time Income & Allowance",
+      "type": "income",
+      "amount": 800,
+      "date": "2026-09-10T09:10:22.559Z",
+      "payment_method": "UPI",
+      "note": "Monthly Campus Work & Allowance",
+      "_id": "txn-1",
+      "created_at": "2026-09-10T09:10:22.559Z"
+    },
+    {
+      "id": "txn-2",
+      "user_id": "user-demo-student",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "type": "expense",
+      "amount": 35.5,
+      "date": "2026-09-29T09:10:22.559Z",
+      "payment_method": "Card",
+      "note": "Campus Cafeteria Lunch & Snacks",
+      "_id": "txn-2",
+      "created_at": "2026-09-29T09:10:22.559Z"
+    },
+    {
+      "id": "txn-3",
+      "user_id": "user-demo-student",
+      "category_id": "cat-2",
+      "category_name": "Books & Study Material",
+      "type": "expense",
+      "amount": 75,
+      "date": "2026-09-27T09:10:22.559Z",
+      "payment_method": "Card",
+      "note": "Algorithm & Data Structures Textbook",
+      "_id": "txn-3",
+      "created_at": "2026-09-27T09:10:22.559Z"
+    },
+    {
+      "id": "txn-4",
+      "user_id": "user-demo-student",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "type": "expense",
+      "amount": 18.25,
+      "date": "2026-09-26T09:10:22.559Z",
+      "payment_method": "UPI",
+      "note": "Groceries & Instant Noodles",
+      "_id": "txn-4",
+      "created_at": "2026-09-26T09:10:22.559Z"
+    },
+    {
+      "id": "txn-5",
+      "user_id": "user-demo-student",
+      "category_id": "cat-4",
+      "category_name": "Transportation",
+      "type": "expense",
+      "amount": 45,
+      "date": "2026-09-25T09:10:22.559Z",
+      "payment_method": "Cash",
+      "note": "Monthly Metro Student Pass",
+      "_id": "txn-5",
+      "created_at": "2026-09-25T09:10:22.559Z"
+    },
+    {
+      "id": "txn-6",
+      "user_id": "user-demo-student",
+      "category_id": "cat-5",
+      "category_name": "Entertainment & Leisure",
+      "type": "expense",
+      "amount": 14.99,
+      "date": "2026-09-23T09:10:22.559Z",
+      "payment_method": "Card",
+      "note": "Streaming & Music Subscription",
+      "_id": "txn-6",
+      "created_at": "2026-09-23T09:10:22.559Z"
+    },
+    {
+      "id": "txn-7",
+      "user_id": "user-demo-student",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "type": "expense",
+      "amount": 62,
+      "date": "2026-09-21T09:10:22.559Z",
+      "payment_method": "UPI",
+      "note": "Weekend Dinner with Study Group",
+      "_id": "txn-7",
+      "created_at": "2026-09-21T09:10:22.559Z"
+    },
+    {
+      "id": "txn-8",
+      "user_id": "user-demo-student",
+      "category_id": "cat-6",
+      "category_name": "Utilities & Internet",
+      "type": "expense",
+      "amount": 30,
+      "date": "2026-09-18T09:10:22.559Z",
+      "payment_method": "UPI",
+      "note": "Dorm Wi-Fi Share",
+      "_id": "txn-8",
+      "created_at": "2026-09-18T09:10:22.559Z"
+    },
+    {
+      "id": "txn-9",
+      "user_id": "user-demo-student",
+      "category_id": "cat-8",
+      "category_name": "Personal Care & Groceries",
+      "type": "expense",
+      "amount": 28.5,
+      "date": "2026-09-16T09:10:22.559Z",
+      "payment_method": "Cash",
+      "note": "Toiletries and Laundry",
+      "_id": "txn-9",
+      "created_at": "2026-09-16T09:10:22.559Z"
+    },
+    {
+      "id": "txn-10",
+      "user_id": "user-demo-student",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "type": "expense",
+      "amount": 42,
+      "date": "2026-09-14T09:10:22.559Z",
+      "payment_method": "Card",
+      "note": "Grocery haul from supermarket",
+      "_id": "txn-10",
+      "created_at": "2026-09-14T09:10:22.559Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "budget-overall",
+      "_id": "budget-overall",
+      "user_id": "user-demo-student",
+      "category_id": null,
+      "category_name": "Overall Monthly Budget",
+      "month": "2026-09",
+      "limit_amount": 600,
+      "created_at": "2026-09-30T09:10:22.559Z"
+    },
+    {
+      "id": "budget-food",
+      "_id": "budget-food",
+      "user_id": "user-demo-student",
+      "category_id": "cat-1",
+      "category_name": "Food & Dining",
+      "month": "2026-09",
+      "limit_amount": 220,
+      "created_at": "2026-09-30T09:10:22.559Z"
+    },
+    {
+      "id": "budget-books",
+      "_id": "budget-books",
+      "user_id": "user-demo-student",
+      "category_id": "cat-2",
+      "category_name": "Books & Study Material",
+      "month": "2026-09",
+      "limit_amount": 100,
+      "created_at": "2026-09-30T09:10:22.559Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-1790761501315",
+      "_id": "fb-1790761501315",
+      "user_id": "user-demo-student",
+      "insight_id": "test-ins-001",
+      "reason": "already_known",
+      "insight_category": "highest_spend",
+      "note": "",
+      "created_at": "2026-09-30T09:45:01.315Z"
+    },
+    {
+      "id": "fb-1790828693697",
+      "_id": "fb-1790828693697",
+      "user_id": "user-demo-student",
+      "insight_id": "test-ins-001",
+      "reason": "already_known",
+      "insight_category": "highest_spend",
+      "note": "",
+      "created_at": "2026-10-01T04:24:53.697Z"
+    },
+    {
+      "id": "fb-1790833199700",
+      "_id": "fb-1790833199700",
+      "user_id": "user-demo-student",
+      "insight_id": "test-ins-001",
+      "reason": "already_known",
+      "insight_category": "highest_spend",
+      "note": "",
+      "created_at": "2026-10-01T05:39:59.700Z"
+    }
+  ]
+}

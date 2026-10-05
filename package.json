@@ -1,0 +1,14 @@
+{
+  "name": "student-expense-tracker-root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "node run-dev.js",
+    "test": "node test_api.mjs",
+    "build": "cd client && npm run build"
+  }
+}
